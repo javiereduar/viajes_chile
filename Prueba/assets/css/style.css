@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+    color: white;
+}
+footer {
+    background-color: turquoise;
+    color: white;
+}
+hr {
+    border: none;
+    height: 10px;
+    background-color: turquoise;
+    
+}
+
+.card {
+    background-color: turquoise;
+}
+
+.parrafosimg {
+    background-color: turquoise;
+
+}
