@@ -15,32 +15,32 @@
   
 </head>
   <body>
-    <div class="container">
+    <div class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-light bg-light text-rigth">
             <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="/assets/img/viajes.svg" width="50px">Viajes chile</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Quienes somos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled">Destacados</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled">Contacto</a>
-                </li>
-                </ul>
-            </div>
+                <a class="navbar-brand" href="#"><img src="/assets/img/viajes.svg" width="50px">Viajes chile</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#quienes">Quienes somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#destacados">Destacados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#contacto">Contacto</a>
+                    </li>
+                    </ul>
+                </div>
             </div>
         </nav>
-            <header>
+        <header>
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -63,31 +63,34 @@
                 </button>
             </div>
         </header>
-        <section class="container p-4" id="Quienes">
+        <section class="container p-4" id="quienes">
             <h1 class="text-center">¿Quienes Somos?</h1>
             <hr>
             <div class="row">
                 <div class="col-sm-4">
-                    <p class="text-center parrafosimg"><i class="fas fa-plane" width="100px"></i></p>
+                    <p class="text-center parrafosimg"><i class="fas fa-plane"></i></p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium voluptatibus hic aliquid placeat odio sunt atque corrupti adipisci, magnam porro quae accusamus repellat tenetur quam modi fugit labore architecto autem?</p>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi at iste quibusdam facere nobis provident omnis aspernatur fuga possimus quod ratione quos itaque quasi, magni nostrum suscipit autem ex dolorum.</p>
                 </div>
                 <div class="col-sm-4">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet maxime, maiores illo placeat nostrum excepturi. Ea quasi, pariatur recusandae, distinctio ullam labore voluptates laborum fuga aspernatur numquam optio nulla eveniet.</p>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi at iste quibusdam facere nobis provident omnis aspernatur fuga possimus quod ratione quos itaque quasi, magni nostrum suscipit autem ex dolorum.</p>
                     <p class="text-center parrafosimg"><i class="fas fa-mountain"></i></p>
                 </div>
                 <div class="col-sm-4">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero delectus totam unde quae recusandae cum, architecto deleniti quam soluta corrupti atque inventore voluptas impedit sint, illum ratione magni aspernatur. Beatae!</p>
                     <p class="text-center parrafosimg"><i class="fas fa-route"></i></p>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi at iste quibusdam facere nobis provident omnis aspernatur fuga possimus quod ratione quos itaque quasi, magni nostrum suscipit autem ex dolorum.</p>
-                </div>
+               </div>
             </div>   
         </section>
-        <section class="p-4">
+        <section class="container p-4" id="destacados">
             <h1 class="text-center">Destacados</h1>
             <hr>
             <div class="row">
                 <div class="col-sm-3"> 
                     <div class="card" style="width: 18rem;">
-                        <img src="/assets/img/card1.jpg" class="card-img-top" alt="...">
+                        <img src="/assets/img/card1.jpg" class="card-img-top" alt="card1">
                         <div class="card-body">
                             <h2>Titulo1</h2>
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -96,7 +99,7 @@
                 </div>
                 <div class="col-sm-3"> 
                     <div class="card" style="width: 18rem;">
-                        <img src="/assets/img/card2.jpg" class="card-img-top" alt="...">
+                        <img src="/assets/img/card2.jpg" class="card-img-top" alt="card2">
                         <div class="card-body">
                           <h2>Titulo2</h2>
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -105,7 +108,7 @@
                 </div>
                 <div class="col-sm-3"> 
                     <div class="card" style="width: 18rem;">
-                        <img src="/assets/img/card2.jpg" class="card-img-top" alt="...">
+                        <img src="/assets/img/card2.jpg" class="card-img-top" alt="card4">
                         <div class="card-body">
                           <h2>Titulo1</h2>
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -124,14 +127,24 @@
 
             </div>
         </section>
-        <section class="p-4">
+        <section class="container p-4" id="contacto">
             <h1 class="text-center">Contacto</h1>
             <hr>
             <form>
                 <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <label for="exampleInputEmail1" class="form-label">Nombre</label>
                   <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                  <div id="emailHelp" class="form-text"></div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Apellido</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                 </div>
                 <div class="mb-3">
                   <label for="exampleInputPassword1" class="form-label">Password</label>
@@ -144,21 +157,30 @@
                 <button type="submit" class="btn btn-primary">Submit</button>
               </form>
         </section> 
-            <footer class="container-fluid">
+        <footer class="container-fluid">
             <div class="row">
-                <div class="col-sm-6 p-4">
+                <div class="col-sm-5 p-4">
                     <h2 class="text-center">Viajes chile</h2>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-7">
                     <div class="row">
-                        <div class="col-sm-2 p-4"><i class="fab fa-twitter"></i></div>
-                        <div class="col-sm-2 p-4"><i class="fab fa-facebook-square"></i></div>
-                        <div class="col-sm-2 p-4"><i class="fab fa-linkedin"></i></div>
+                        <div class="col-sm-2 p-4 text-center">
+                            <div class="icofooter"><i class="fab fa-twitter"></i></div>
+                        </div>
+                        <div class="col-sm-2 p-4 text-center">
+                            <div class="icofooter"><i class="fab fa-twitter"></i></div>
+                        </div>
+                        <div class="col-sm-2 p-4 text-center">
+                            <div class="icofooter"><i class="fab fa-facebook-square"></i></div>
+                        </div>
+                        <div class="col-sm-2 p-4 text-center">
+                            <div class="icofooter"><i class="fab fa-linkedin"></i></div>
+                        </div>
                     </div>
                 </div>
     
             </div>
-            </footer>    
+        </footer>    
     </div>
     
 

@@ -1,3 +1,9 @@
+.navbar {
+    background-color: transparent !important;
+}
+
+
+
 body {
     background-color: black;
     color: white;
@@ -5,12 +11,6 @@ body {
 footer {
     background-color: turquoise;
     color: white;
-}
-hr {
-    border: none;
-    height: 10px;
-    background-color: turquoise;
-    
 }
 
 .card {
@@ -20,4 +20,18 @@ hr {
 .parrafosimg {
     background-color: turquoise;
 
+}
+.icofooter i {
+    font-size: 60px;
+}
+.parrafosimg i {
+    font-size: 35px;
+}
+hr:not([size]) {
+    height: 2px
+}
+hr {
+    margin: 1rem 0;
+    background-color: turquoise;
+    opacity: .99
 }
