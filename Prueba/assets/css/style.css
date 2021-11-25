@@ -1,8 +1,9 @@
 .navbar {
     background-color: transparent !important;
+    position: fixed;
+    z-index: 2;
+    color: white;
 }
-
-
 
 body {
     background-color: black;
